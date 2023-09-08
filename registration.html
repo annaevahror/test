@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SHIFTON</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div
+      class="sm:w-[1901px] w-full h-[910px] bg-cover bg-[url('img/abstract-uv-ultraviolet-light-composition.jpg')]"
+    >
+      <div class="flex justify-center pt-[220px]">
+        <div
+          class="sm:w-[600px] w-[400px] h-[500px] rounded-lg bg-gradient-to-r from-purple-500 to-pink-500 shadow-xl"
+        >
+          <div>
+            <h1
+              class="text-white text-2xl sm:text-3xl leading-5 font-sans font-medium pl-24 sm:pl-40 mt-6"
+            >
+              Создать аккаунт
+            </h1>
+            <br />
+            <hr />
+
+            <div class="mt-10">
+              <label for="name"></label>
+              <input
+                class="mt-2 sm:w-[500px] w-[300px] h-7 ml-12 rounded-xl text-base pl-3 font-bold border-2 border-blue-600"
+                type="name"
+                name="name"
+                id="name"
+                placeholder="ИМЯ"
+                required
+              />
+            </div>
+            <br />
+            <div>
+              <label for="number"></label>
+              <input
+                class="mt-2 sm:w-[500px] w-[300px] h-7 ml-12 rounded-xl text-base pl-3 font-bold border-2 border-blue-600"
+                class="mt-5"
+                type="number"
+                name="number"
+                id="number"
+                placeholder="Телефон"
+                required
+              />
+            </div>
+
+            <br />
+
+            <div>
+              <label for="e-mail"></label>
+              <input
+                class="mt-2 sm:w-[500px] w-[300px] h-7 ml-12 rounded-xl text-base pl-3 font-bold border-2 border-blue-600"
+                class="mt-5"
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Электронный почтовый адрес"
+                required
+              />
+            </div>
+            <br />
+            <div>
+              <label for="password"></label>
+              <input
+                class="mt-2 sm:w-[500px] w-[300px] h-7 ml-12 rounded-xl text-base pl-3 font-bold border-2 border-blue-600"
+                class="mt-5"
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Пароль"
+                required
+              />
+            </div>
+            <div class="hidden sm:inline">
+              <p class="ml-2 mt-2 text-white">
+                <input class="ml-12" type="checkbox" checked /> Я соглашаюсь с
+                <a class="text-blue-700 hover:text-rose-600 ml-1" href=""
+                  >Условиями
+                </a>
+                и
+                <a class="text-blue-700 hover:text-rose-900" href=""
+                  >Правилами конфиденцтальности</a
+                >
+              </p>
+            </div>
+            <div class="sm:hidden inline">
+              <h1 class="ml-2 mt-2 text-white">
+                <input class="ml-12" type="checkbox" checked /> Я соглашаюсь с
+                <a class="text-blue-700 hover:text-rose-600 ml-1" href=""
+                  >Условиями
+                </a>
+                и
+              </h1>
+              <h1 class="pl-14">
+                <a class="text-blue-700 hover:text-rose-900" href=""
+                  >Правилами конфиденцтальности</a
+                >
+              </h1>
+            </div>
+            <a href="index.html"
+              ><button
+                class="sm:w-[500px] w-[300px] h-[44px] ml-12 bg-[#29aae3] rounded-3xl font-sans font-medium text-xl mt-10 leading-6 text-[#ffffff] hover:text-green-900"
+              >
+                Зарегистирироваться
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

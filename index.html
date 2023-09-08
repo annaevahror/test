@@ -3,110 +3,160 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+    <title>SHIFTON</title>
     <script src="https://cdn.tailwindcss.com"></script>
+     <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
   </head>
   <body>
-    <div class="h-full w-[1901px]">
-      <div class="w-[1901px] h-[74px] bg-slate-900" id="shifton">
-        <div class="flex justify-between">
+    <div class=" h-full sm:w-[1901px]    ">
+      <div class="sm:w-[1901px] w-full h-12 sm:h-[74px]  bg-[#080702]  " id="shifton ">
+        <div class="flex justify-between sm::flex">
           <img
-            class="h-[73px] ml-48"
+            class="sm:h-[73px] h-11 sm:ml-48 ml-8 "
             src="img/screencapture-shifton-ru-2021-08-19-11_18_59 2 (1).png"
-            alt=""
+            alt="" id="Главная"
           />
 
-          <a
-            class="text-white py-4 ml-52 font-sans font-normal leading-[3rem] uppercase  hover:text-sky-500"
-            href=""
+          <a 
+            class="text-white py-4 ml-52 font-sans font-normal leading-[3rem] hidden  sm:inline uppercase  hover:text-sky-500 transition ease-in-out delay-150 hover:-translate-y-1   duration-100 "
+            href="#Главная" id="верх"
             >Главная</a
           >
           <a
-            class="text-white py-4 mr- font-sans font-normal leading-[3rem] uppercase hover:text-sky-500 "
+            class="text-yellow-400 py-4 mr- font-sans font-normal leading-[3rem] hidden sm:inline  uppercase hover:text-sky-500 transition ease-in-out delay-150 hover:-translate-y-1 duration-100"
             href="#Тарифы"
             >Тарифы</a
           >
           <a
-            class="text-white py-4 font-sans font-normal leading-[3rem] uppercase  hover:text-sky-500"
+            class="text-white py-4 font-sans font-normal leading-[3rem] uppercase hidden sm:inline hover:text-sky-500 transition ease-in-out delay-150 hover:-translate-y-1 duration-100"
             href="#Возможности Shifton"
             >Возможности</a
           >
           <a
-            class="text-white py-4 font-sans font-normal leading-[3rem] uppercase  hover:text-sky-500"
+            class="text-white py-4 font-sans font-normal leading-[3rem] uppercase hidden sm:inline hover:text-sky-500 transition ease-in-out delay-150 hover:-translate-y-1 duration-100"
             href="#БЛОГ"
             >Блог</a
           >
           <a
-            class="text-white py-4 font-sans font-normal leading-[3rem] uppercase  hover:text-sky-500"
+            class="text-white py-4 font-sans font-normal leading-[3rem] uppercase hidden sm:inline hover:text-sky-500 transition ease-in-out delay-150 hover:-translate-y-1 duration-100"
             href="#ЧАВО"
             >Чаво</a
           >
           <a
-            class="text-white py-4 font-sans font-normal leading-[3rem] uppercase  hover:text-sky-500"
+            class="text-white py-4 font-sans font-normal leading-[3rem] uppercase hidden sm:inline hover:text-sky-500 transition ease-in-out delay-150 hover:-translate-y-1  duration-100"
             href=""
             >Выход</a
           >
-          <button
-            class="h-[40px] w-[157px] pb-1 bg-[#29AAE3] rounded-3xl font-sans font-medium text-2xl leading-3 text-white mt-5  hover:text-green-700"
+         <a href="registration.html"> <button 
+            class="h-[40px] w-[157px] pb-1 bg-[#29AAE3] hidden sm:inline rounded-3xl font-sans font-medium text-2xl leading-3 text-white mt-5  hover:text-green-700"
           >
             Регистрация
-          </button>
+          </button></a>
+          <div class="  flex sm:mr-56  ">
+
+          
           <p
-            class="text-white mr-48 py-4 font-sans font-normal leading-[3rem] uppercase  hover:text-sky-500"
+            class="text-white sm:mr-0 sm:py-4 ml-40 sm:ml-0   font-sans font-normal leading-[3rem] uppercase  "
           >
             Рус
           </p>
+          
+            <svg class="fill-white  sm:mt-8 mr-0 mt-4 sm:mr-8 hover:text-sky-500 transition ease-in-out delay-150 hover:-translate-y-1 duration-100
+            " xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+  <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+</svg>
+          </div>
+          
+           <button id="main" class="sm:hidden inline    mr-10   "> 
+      <div class="h-1 w-6 my-1 bg-slate-100 rounded-full"></div> 
+      <div class="h-1 w-6 my-1 bg-slate-100 rounded-full"></div> 
+      <div class="h-1 w-6 my-1 bg-slate-100 rounded-full"></div> 
+
+      <div class="w-[250px] h-[370px] mt-7 hidden  hide bg-black right-6  absolute  ">
+        <svg class=" w-10 h-10 hidden hide fill-white ml-52" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+  <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+</svg>
+        <a class="hidden hide font-sans font-bold text-sm leading-10 uppercase text-white" href="#">Главная</a>
+        <a class="hidden hide font-sans font-bold text-sm leading-10 uppercase text-white" href="#Тарифы">Тарифы</a>
+        <a class="hidden hide font-sans font-bold text-sm leading-10 uppercase text-white" href="#Возможности Shifton">Возможности</a>
+        <a class="hidden hide font-sans font-bold text-sm leading-10 uppercase text-white" href="#БЛОГ">Блог</a>
+        <a class="hidden hide font-sans font-bold text-sm leading-10 uppercase text-white" href="#ЧАВО">ЧАВО</a>
+        <a class="hidden hide font-sans font-bold text-sm leading-10 uppercase text-white" href="#">ВХОД</a>
+         
+         <a  class=" hidden hide h-[30px] w-[180px] leading-6  bg-[#29AAE3] ml-10 rounded-3xl font-sans font-medium text-xl  text-white  hover:text-green-700" href="registration.html">  
+           
+          
+            Регистрация
+        </a>
+        
+    
+      </div>
+    </button>
         </div>
       </div>
-      <div class="">
-        <div class="w-[1901px] h-[1000px]">
+       
+        <div class="sm:w-[1901px] w-full sm:h-[1000px] mb-16 ">
           <div
-            class="bg-[url('img/aaaaa.jpg')] w-[1902px] h-[850px] bg-no-repeat bg-cover"
+            class="bg-[url('img/aaaaa.jpg')] w-full h-[600px] sm:w-[1902px] sm:h-[850px] bg-no-repeat bg-cover  "
           >
-            <div class="px-[200px]">
+            <div class="sm:px-[200px] px-10 pt-20">
               <p
-                class="text-[#ffffff] font-sans font-normal leading-[56px] text-5xl pt-44"
+                class="text-[#ffffff] font-sans   sm:font-normal sm:leading-[56px] leading-[38px] font-medium sm:text-5xl text-4xl sm:pt-36"
               >
-                Автоматизированное составление <br />
+                Автоматизированное  <br class="sm:hidden inline"> составление  <br class="hidden sm:inline">
                 рабочих расписаний онлайн
               </p>
+              <div>
+          </div>
+               
               <br />
               <p
-                class="font-sans font-normal text-[26px] leading-8 text-[#ffffff]"
+                class="font-sans text-xl leading-6 font-normal sm:text-[26px] sm:leading-8 text-[#ffffff]" 
               >
                 Экономия времени и денег
               </p>
 
               <p
-                class="font-sans font-normal text-[26px] leading-8 text-[#ffffff] mt-4"
+                class="font-sans font-normal sm:text-[26px] text-xl sm:leading-8 leading-6 text-[#ffffff] mt-4"
               >
-                Грамотное распределения рабочей нагрузки
+                Грамотное распределения <br class="sm:hidden inline"> рабочей нагрузки
               </p>
+            
               <p
-                class="font-sans font-normal text-[26px] leading-8 text-[#ffffff] mt-4"
+                class="font-sans font-normal text-xl sm:text-[26px] sm:leading-8 leading-6 text-[#ffffff] mt-4"
               >
-                Построение оптималного сменного рабочего <br />
-                расписания для любого коичество сотрудников
+                Построение оптималного <br class="sm:hidden inline"> сменного рабочего <br class="hidden sm:inline" />
+                расписания для <br class="sm:hidden inline"> любого коичество сотрудников
               </p>
               <button
-                class="w-[290px] h-[47px] bg-[#54A757] mt-8 rounded-3xl font-sans font-medium text-xl text-white  hover:text-green-900"
+                class="sm:w-[290px] h-[35px] w-[240px]  bg-[#54A757] mt-8 ml-3 rounded-3xl font-sans font-medium text-lg text-white  hover:text-green-900"
               >
                 Попробовать бесплатно
               </button>
             </div>
           </div>
+          
           <h1 id="Возможности Shifton"
-            class="font-sans font-medium text-4xl flex mt-20 justify-center text-[#434449]"
+            class="font-sans font-medium text-4xl flex sm:mt-20 mt-14 justify-center text-[#434449]"
           >
             Возможности Shifton
           </h1>
         </div>
       </div>
-      <div class="w-[1901px] h-[700px]">
-        <div class="flex pl-72">
-          <div class="w-[310px] h-[602px] bg-[#f9f9f9] rounded-xl">
-            <div class="pl-6">
+       <div class="fixed hidden sm:inline " >
+        <a href="#верх">  <svg class="fixed fill-stone-500 w-10 h-10 right-3 bottom-3 " xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-square-fill" viewBox="0 0 16 16">
+  <path d="M2 16a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2zm6.5-4.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 1 0z"/>
+</svg></a>
+        </div>
+      <div class="px-7 sm:px-0">
+      <div class="sm:w-[1901px] h-full sm:h-[700px] w-full sm:px-10 first-letter: ">
+        <div class="sm:flex sm:pl-72 block ">
+          <div class="sm:w-[310px] first-line: w-full   h-[602px] bg-[#f9f9f9] rounded-xl  ease-in-out delay-150 sm:hover:-translate-y-1    duration-100 sm:hover:bg-orange-100">
+            <div class="sm:pl-6 pl-20">
               <img class="mt-7" src="img/time-management 1 (3).png" alt="" />
               <h1
                 class="font-sans text-[#29aae3] font-extrabold text-base leading-7"
@@ -148,15 +198,15 @@
                   >
                 </li>
               </ul>
-              <button
-                class="w-[160px] h-11 bg-[#54A757] rounded-3xl font-sans mt-12 font-medium text-lg leading-6 text-[#ffffff]  hover:text-green-900"
+             <a href="https://www.flaticon.com/free-icon/time-management_1459122 "><button
+                class="w-[240px] h-11 bg-[#54A757] rounded-3xl font-sans mt-12  font-medium text-lg leading-6 text-[#ffffff]  hover:text-green-900"
               >
-                Подробне
-              </button>
+                Подробнеe
+              </button></a> 
             </div>
           </div>
-          <div class="w-[310px] h-[602px] bg-[#f9f9f9] rounded-xl ml-4">
-            <div class="pl-6">
+          <div class="sm:w-[310px] w-full h-[602px] bg-[#f9f9f9] rounded-xl ml-4 transition ease-in-out delay-150 sm:hover:-translate-y-1    duration-100 sm:hover:bg-orange-100">
+            <div class="sm:pl-6 pl-20">
               <img class="mt-7" src="img/time-management 1 (4).png" alt="" />
               <h1
                 class="font-sans text-[#29aae3] font-extrabold text-base leading-7"
@@ -197,15 +247,15 @@
                 </li>
               </ul>
 
-              <button
-                class="w-[160px] h-11 bg-[#54A757] hover:text-green-900 rounded-3xl font-sans mt-12 font-medium text-lg leading-6 text-[#ffffff]"
+            <a href="https://www.flaticon.com/free-icon/time-management_4388160">  <button
+                class="w-[240px] h-11 bg-[#54A757] hover:text-green-900 rounded-3xl font-sans mt-12 font-medium text-lg leading-6 text-[#ffffff]"
               >
-                Подробне
-              </button>
+                Подробнеe
+              </button></a>
             </div>
           </div>
-          <div class="w-[310px] h-[602px] bg-[#f9f9f9] rounded-xl ml-4">
-            <div class="pl-6">
+          <div class="sm:w-[310px] w-full h-[602px]  bg-[#f9f9f9] rounded-xl ml-4 transition ease-in-out delay-150 sm:hover:-translate-y-1    duration-100 sm:hover:bg-orange-100">
+            <div class="sm:pl-6 pl-20">
               <img class="mt-7" src="img/time-management 1 (5).png" alt="" />
               <h1
                 class="font-sans text-[#29aae3] font-extrabold text-base leading-7"
@@ -237,15 +287,15 @@
                   <span class="text-[#434449]"> Универсальность </span>
                 </li>
               </ul>
-              <button
-                class="w-[160px] h-11 bg-[#54A757] rounded-3xl font-sans mt-[95px] font-medium text-lg leading-6 text-[#ffffff] hover:text-green-900"
+            <a href="https://www.flaticon.com/free-icon/clock_4129787"> <button
+                class="w-[240px] h-11 bg-[#54A757] rounded-3xl font-sans mt-[95px] font-medium text-lg leading-6 text-[#ffffff] hover:text-green-900"
               >
-                Подробне
-              </button>
+                Подробнеe
+              </button></a> 
             </div>
           </div>
-          <div class="w-[310px] h-[602px] bg-[#f9f9f9] rounded-xl ml-4">
-            <div class="pl-6">
+          <div class="sm:w-[310px] w-full  h-[602px] bg-[#f9f9f9] rounded-xl ml-4 transition ease-in-out delay-150 sm:hover:-translate-y-1    duration-100 sm:hover:bg-orange-100">
+            <div class="sm:pl-6 pl-20">
               <img class="mt-7" src="img/time-management 1 (6).png" alt="" />
               <h1
                 class="font-sans text-[#29aae3] font-extrabold text-base leading-7"
@@ -273,95 +323,120 @@
                   >
                 </li>
               </ul>
-              <button
-                class="w-[160px] h-11 bg-[#54A757] rounded-3xl font-sans mt-40 font-medium text-lg leading-6 text-[#ffffff] hover:text-green-900"
+             <a href="https://www.flaticon.com/free-icon/time_4149720"> <button
+                class="w-[240px] h-11 bg-[#54A757] rounded-3xl font-sans mt-40 font-medium text-lg leading-6 text-[#ffffff] hover:text-green-900"
               >
-                Подробне
-              </button>
+                Подробнеe
+              </button></a>
             </div>
           </div>
         </div>
+        </div>
       </div>
-      <div class="w-[1901px] h-[690px] bg-[#f5f6f6] " id="Тарифы">
+      <div class="sm:w-[1901px] w-full h-[800px] sm:h-[690px] bg-[#f5f6f6] mt-10  " id="Тарифы">
+       <div class="hidden sm:inline">
         <h1 
-          class="text-[#29aae3] font-sans font-medium text-4xl leading-10 flex justify-center pt-16"
+          class="text-[#29aae3]  font-sans font-medium text-4xl leading-10 flex justify-center sm:pt-16 pt-14 "
         >
           Автоматизированное cоздание онлайн расписаний
         </h1>
-        <div class="flex px-48">
+        </div>
+        <div class="sm:hidden inline ">
+        <h1 class="text-[#29aae3] pt-7  font-sans font-medium text-4xl leading-10 flex justify-center">Автоматизированноe </h1>
+        <h1 class="text-[#29aae3]  font-sans font-medium text-4xl leading-10 flex justify-center"> cоздание онлайн</h1>
+        <h1 class="text-[#29aae3]  font-sans font-medium text-4xl leading-10 flex justify-center">расписаний</h1>
+        </div>
+        <div class="sm:flex  sm:px-48 block">
+          </div>
+          <img class="sm:ml-52 inline sm:hidden  mt-12 sm:mt-16 " src="img/Мокап (1).png" alt="" />
+        
           <div>
             <p
-              class="text-[#000000] ml-32 font-sans font-medium text-lg leading-7 mt-[170px]"
+              class="text-[#000000] sm:ml-72 ml-14  font-sans font-medium text-lg leading-6 sm:leading-7 sm:mt-[170px]"
             >
-              Oнлайн-сиcтема Shifton разработана для <br />
-              оптимизиции времени и ресурсов в создании <br />
-              рабочих расписаний сотрудников.Shifton - <br />
-              прерасное решение для компаний любых сфер <br />
+              Oнлайн-сиcтема Shifton разработана для <br  class="hidden sm:inline"/>
+              оптимизиции времени и ресурсов в создании <br  class="hidden sm:inline"/>
+              рабочих расписаний сотрудников.Shifton - <br  class="hidden sm:inline"/>
+              прерасное решение для компаний любых сфер <br class="hidden sm:inline" />
               деятельности и размеров.
             </p>
-            <button
-              class="w-[300px] h-[44px] ml-32 bg-[#29aae3] rounded-3xl font-sans font-medium text-xl mt-10 leading-6 text-[#ffffff] hover:text-green-900"
+          <a href="registration.html">  <button
+              class="w-[300px] h-[44px] sm:ml-80 ml-20 bg-[#29aae3] rounded-3xl font-sans font-medium text-xl mt-16 sm:mt-6  leading-6 text-[#ffffff] hover:text-green-900"
             >
               Зарегистирироваться
-            </button>
-          </div>
-          <img class="ml-52 mt-16" src="img/Мокап (1).png" alt="" />
+            </button></a>
+          <img class="sm:ml-[400px] hidden sm:inline -mt-64 " src="img/Мокап (1).png" alt="" />
         </div>
-         <div class="w-[1901px] h-[690px] ">
-        <h1
+         </div>
+          </div>
+         <div class="sm:w-[1901px] w-full h-[690px] ">
+         <div class="hidden sm:inline">
+          <h1
           class="text-[#9033F9] font-sans font-medium text-4xl leading-10 flex justify-center pt-16"
         >
           Оптимизация командной работы
         </h1>
-        <div class="flex px-60">
-          <img class=" mt-20" src="img/Мокап (2).png" alt="" />
+        </div>
+        <div class="sm:hidden inline">
+        <h1 class="text-[#9033F9] font-sans font-medium text-4xl leading-10 mt-12 flex justify-center">Оптимизация</h1>
+        <h1 class="text-[#9033F9] font-sans font-medium text-4xl leading-10 flex justify-center">командной работы</h1>
+        </div>
+        <div class="sm:flex block sm:px-60">
+          <img class=" sm:mt-20 mt-10" src="img/Мокап (2).png" alt="" />
           <div>
-             
             <p
-              class="text-[#000000] font-sans ml-32 font-medium text-lg leading-7 mt-[80px]"
+              class="text-[#000000] font-sans sm:ml-32 ml-16 font-medium text-lg leading-7 mt-[80px]"
             >
-             Shifton поможет компании сэкономить <br>
-              средства, минимизировав время простоев в <br>
-               работе. Система автоматически назначает <br>
-                смены сотрудникам, обеспечивая плавный и <br>
-                 бесперебойный рабочий процесс на <br> предприятии.
+             Shifton поможет компании сэкономить <br  class="hidden sm:inline">
+              средства, минимизировав время простоев в <br  class="hidden sm:inline">
+               работе. Система автоматически назначает <br  class="hidden sm:inline">
+                смены сотрудникам, обеспечивая плавный и <br  class="hidden sm:inline">
+                 бесперебойный рабочий процесс на <br  class="hidden sm:inline"> предприятии.
             </p>
             <button
-              class="w-[235px] h-[44px] bg-[#9033f9] rounded-3xl ml-32 font-sans font-medium text-xl mt-10 leading-6 text-[#ffffff] hover:text-green-900"
+              class="w-[235px] h-[44px] ml-20 bg-[#9033f9] rounded-3xl sm:ml-32 font-sans font-medium text-xl mt-10 leading-6 text-[#ffffff] hover:text-green-900"
             >
               Начать работу
             </button>
           </div>
         </div>
-              <div class="w-[1901px] h-[690px] bg-[#f5f6f6]"  id="БЛОГ" >
-        <h1
+              <div class=" sm:w-[1901px] w-full mt-10 h-[1040px] sm:h-[690px] bg-[#f5f6f6]"  id="БЛОГ" >
+              <div class="hidden sm:inline">        
+                <h1
           class="text-[#ff5966] font-sans font-medium text-4xl leading-10 flex justify-center pt-16"
         >
           Управление сменами и перерывами
          
         </h1>
-        <div class="flex px-48">
+        </div>
+        <div class="sm:hidden inline">
+        <h1 class="text-[#ff5966] font-sans pt-10 font-medium text-4xl leading-10 flex justify-center">Управление</h1>
+        <h1 class="text-[#ff5966] font-sans font-medium text-4xl leading-10 flex justify-center">сменами и перерывами</h1>
+        </div>
+        <div class="sm:flex block px-0 sm:px-48">
+          <img class="sm:ml-[340px] ml-16  sm:hidden inline mt-12" src="Мокап (3).png" alt="" />
           <div>
             <p
-              class="text-[#000000] ml-32 font-sans font-medium text-lg leading-7 mt-[145px]"
+              class="text-[#000000] sm:ml-32 ml-16 font-sans font-medium text-lg leading-6 sm:leading-7 mt-24 sm:mt-[145px]"
             >
-          Создавайте комфортные рабочие графики с <br>
-           учетом личных обстоятельств сотрудников. <br>
-            Работники оценят возможность обмениваться <br>
-             сменами или перерывами с коллегами, а в <br>
-              случае замены сотрудника Shifton мгновенно <br>
+          Создавайте комфортные рабочие графики с <br class="hidden sm:inline">
+           учетом личных обстоятельств сотрудников. <br class="hidden sm:inline">
+            Работники оценят возможность обмениваться <br class="hidden sm:inline">
+             сменами или перерывами с коллегами, а в <br class="hidden sm:inline">
+              случае замены сотрудника Shifton мгновенно <br class="hidden sm:inline">
                скорректирует любой график. 
             </p>
             <button
-              class="w-[300px] h-[44px] ml-32 bg-[#ff5966] rounded-3xl font-sans font-medium text-xl mt-10 leading-6 text-[#ffffff] hover:text-green-900"
+              class="w-[300px] h-[44px] ml-20 sm:ml-32 bg-[#ff5966] rounded-3xl font-sans font-medium text-xl sm:mt-10 mt-14 leading-6 text-[#ffffff] hover:text-green-900"
             >
               Попробовать бесплатно
             </button>
           </div>
-          <img class="ml-[340px] mt-8" src="Мокап (3).png" alt="" />
+          <img class="ml-[340px] hidden sm:inline mt-8" src="Мокап (3).png" alt="" />
         </div>
-        <div class="w-[1901px] h-[1200px] ">
-          <div class="px-[300px] ">   
+        <div class="sm:w-[1901px] w-full sm:h-[1200px] ">
+          <div class="sm:px-[300px] ">
+            <div  class="hidden sm:inline">  
           <h1  id="ЧАВО"
           class="text-[#434449] font-sans font-medium text-4xl leading-10 flex justify-center pt-36 "
         >
@@ -369,10 +444,28 @@
          <h1
           class="text-[#434449] font-sans font-medium text-4xl leading-10 flex justify-center ">сервис планирования расписаний</h1>
         </h1>
-       <iframe class="w-[1300px] h-[600px] mt-14" src="https://www.youtube.com/embed/GjhKsd35JLg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-       <h1 class="font-sans mt-20 font-medium text-2xl leading-8 flex justify-center text-[#434449]">Остались вопросы? С радостью на них ответим!</h1>
-       <h1 class="font-sans  font-medium text-2xl leading-8 flex justify-center text-[#434449]"> Пишите в чат или на почту  <a class="ml-1 text-[#29aae3]  hover:text-green-500" href="#shifton">support@shifton.com</a></h1>
-       <div class="flex  justify-center mt-16">
+        </div>
+        <div class=" sm:hidden inline">
+        <h1 class="text-[#434449] pt-20 font-sans font-medium text-4xl leading-9 flex justify-center ">Shifton -</h1>
+        <h1 class="text-[#434449] font-sans font-medium text-4xl leading-9 flex justify-center ">автоматизированный</h1>
+        <h1 class="text-[#434449] font-sans font-medium text-4xl leading-9 flex justify-center ">сервис планирования</h1>
+        <h1 class="text-[#434449] font-sans font-medium text-4xl leading-9 flex justify-center ">расписаний</h1>
+        </div>
+       <iframe class="sm:w-[1300px] w-[450px] h-[250px] w-[4
+       0px] ml-5 sm:h-[620px] mt-14" src="https://www.youtube.com/embed/GjhKsd35JLg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+       <div class="hidden sm:inline">
+       <h1 class="font-sans mt-20 font-medium text-2xl leading-8 flex justify-center text-[#434449]">Остались вопросы?  С радостью на них ответим!</h1>
+       <h1 class="font-sans  font-medium text-2xl leading-8 flex justify-center text-[#434449]"> Пишите в чат или на почту  <a class="ml-1 text-[#29aae3]  hover:text-green-500" href="#Главная">support@shifton.com</a></h1>
+       </div>
+       <div class="sm:hidden inline">
+       <div class="font-sans mt-20 font-medium text-2xl leading-8  text-[#434449]">
+       <h1 class=" flex justify-center">Остались вопросы? </h1>
+       <h1 class=" flex justify-center">С радостью на них ответим! </h1>
+       <h1 class=" flex justify-center">Пишите в чат или на почту </h1>
+       <a class="hover:text-green-500 text-[#29aae3]   flex justify-center" href="#Главная">support@shifton.com </a>
+       </div>
+       </div>
+       <div class="flex  justify-center mt-8 sm:mt-16">
       <a href="https://www.facebook.com/photo/?fbid=713977850528024&set=a.194712639121217&__tn__=%3C">  <img  src="img\Facebook.png" alt=""></a>
        <a href="https://twitter.com/shifton_com/photo"> <img src="img\Twitter.png" alt=""></a>
        <a href=""> <img src="img\Linkedin.png" alt=""></a>
@@ -381,12 +474,12 @@
        </div>
        </div>
         </div>
-        <div class="w-[1901px] h-[337px] bg-[#53A8DD]">
-          <div class="px-64">
-         <div  class="flex justify-center  pt-14 "  >
-          <a class=" font-sans font-medium text-xl leading-6 text-[#ffffff] mr-11  hover:text-green-500 " href="#Возможности Shifton"> Возможности</a>
-          <a class=" font-sans font-medium text-xl leading-6 text-[#ffffff]  hover:text-green-500" href="#БЛОГ"> Блог</a>
-          <a class=" font-sans font-medium text-xl leading-6 text-[#ffffff] ml-11  hover:text-green-500" href="#ЧАВО"> ЧАВО</a>
+        <div class="sm:w-[1901px] w-full  h-[280px] sm:h-[337px] bg-[#53A8DD]">
+          <div class="sm:px-64">
+         <div  class="flex justify-center pt-8 sm:pt-14 "  >
+          <a class=" font-sans font-medium text-lg sm:text-xl leading-5 sm:leading-6 text-[#ffffff] mr-11  hover:text-green-500 " href="#Возможности Shifton"> Возможности</a>
+          <a class=" font-sans font-medium text-lg sm:text-xl leading-5 sm:leading-6 text-[#ffffff]  hover:text-green-500" href="#БЛОГ"> Блог</a>
+          <a class=" font-sans font-medium text-lg sm:text-xl leading-5 sm:leading-6 text-[#ffffff] ml-11  hover:text-green-500" href="#ЧАВО"> Чaво</a>
          </div>
          <br>
          <hr>
@@ -398,9 +491,13 @@
          <br>
          <h1 class=" font-sans font-medium text-xl leading-8 text-[#ffffff] flex justify-center ">Copyright 2017-2021, Shifton. All rights reserved.</h1>
          <h1 class=" font-sans font-medium text-xl leading-8 text-[#ffffff] flex justify-center ">Privacy Policy | Terms of Use | Сookies</h1>
+          </div>
          </div>
         </div>
       </div>
     </div>
+     
+    <script src="script.js"></script>
+    
   </body>
 </html>
